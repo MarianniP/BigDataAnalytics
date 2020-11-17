@@ -1,3 +1,10 @@
+/* 
+We saved the results in a csv file using the code lines below:
+!outputformat csv
+!record USER02Q.csv 
+SELECT … 
+!record
+*/
 SELECT NAME,STATE,STARS
 FROM “USER02.YBUSINESS”
 WHERE ISOPEN = '1'
